@@ -47,8 +47,7 @@
     color: var(--desaturated-blue);
 }
 
-.navbar__right, 
-.hamburger__button {
+.navbar__right .hamburger__button {
     display: none;
     margin-right: 1.5rem;
 }

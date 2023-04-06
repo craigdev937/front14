@@ -1,5 +1,5 @@
 .hero__container {
-    background-image: url("/public/desktop/image-header.jpg");
+    background-image: url("/desktop/image-header.jpg");
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -23,9 +23,9 @@
     padding-top: 5rem;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
     .hero__container {
-        background-image: url("/public/desktop/image-header.jpg");
+        background-image: url("/desktop/image-header.jpg");
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -40,10 +40,17 @@
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     .hero__container {
-        background-image: url("/public/mobile/image-header.jpg");
+        background-image: url("/mobile/image-header.jpg");
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero__header {
+        font-size: 2.3rem;
     }
 }
+
 
 

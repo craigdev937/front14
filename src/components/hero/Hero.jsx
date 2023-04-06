@@ -9,10 +9,12 @@ export const Hero = () => {
             <section className="hero__container">
                 <Navbar />
                 <div className="hero__header-wrap">
-                    <div className="hero__header">WE ARE CREATIVES</div>
-                    <div className="hero__arrow">
+                    <aside className="hero__header"
+                        >WE ARE CREATIVES
+                    </aside>
+                    <aside className="hero__arrow">
                         <img src={Aarow} alt="Arrow Down" />
-                    </div>
+                    </aside>
                 </div>
             </section>
         </React.Fragment>
