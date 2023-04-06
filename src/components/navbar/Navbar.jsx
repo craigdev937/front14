@@ -22,7 +22,7 @@ export const Navbar = () => {
                             className="navbar__menu" 
                             id={toggleNav ? "hidden" : ""}>
                                 <div className="navbar__menu--inner">
-                                    <aside className="triangle" />
+                                    <aside className="triangle"></aside>
                                     <a 
                                         href="#" 
                                         className="navbar__menu--item" 

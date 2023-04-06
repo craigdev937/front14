@@ -1,0 +1,54 @@
+.services__container {
+    display: flex;
+    height: 600px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.services__text--container {
+    display: flex;
+    flex: 50%;
+    background-color: var(--white);
+    justify-content: center;
+    align-items: center;
+}
+
+.services__text--wrapper {
+    padding: 18% 22%;
+}
+
+.services__header {
+    font-family: var(--font-highlight);
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: var(--desaturated-blue);
+}
+
+.services__body {
+    line-height: 1.7rem;
+    padding: 2rem 0;
+    color: var(--dark-grayish-blue);
+}
+
+.services__btn--pink {
+    font-family: var(--font-highlight);
+    font-weight: 900;
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.services__image--container {
+    flex: 50%;
+}
+
+.cup {
+    background-image: url("/desktop/image-stand-out.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
