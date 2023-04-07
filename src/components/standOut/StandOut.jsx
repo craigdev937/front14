@@ -4,24 +4,31 @@ import "./StandOut.css";
 export const StandOut = () => {
     return (
         <React.Fragment>
-            <aside className="services__container reverse">
-                <div className="services__text--container">
-                    <div className="services__text--wrapper">
-                        <section className="services__header">
+            <aside className="standout__container reverse">
+                <div className="standout__text--container">
+                    <div className="standout__text--wrapper">
+                        <section className="standout__header">
                             Stand out to the right audience
                         </section>
-                        <section className="services__body">
+                        <section className="standout__body">
                             Using a collaborative formula of 
                             designers, researchers, photographers, 
                             videographers, and copywriters, we'll build 
                             and extend your brand in digital places
                         </section>
-                        <a href="#" className="services__btn--pink">LEARN MORE</a>
+                        <a 
+                            href="#" 
+                            className="standout__btn--pink"
+                            >LEARN MORE
+                        </a>
                     </div>
                 </div>
-                <section className="services__image--container cup"></section>
+                <section 
+                    className="standout__image--container cup" 
+                />
             </aside>
         </React.Fragment>
     );
 };
+
 
