@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    height: 600px;
+}
+
+.graphic__container {
+    display: flex;
+    flex: 50%;
+    background-image: url("desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.photo__container {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    background: url("desktop/image-photography.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image__text--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+.image__header {
+    font-family: var(--font-highlight);
+    font-weight: 900;
+    font-size: 1.7rem;
+    padding-bottom: 1.7rem;
+}
+
+.image__body {
+    line-height: 1.5rem;
+}
+
+.text-cyan-1 {
+    color: var(--graphic-design-text);
+}
+
+.text-dark-blue {
+    color: var(--photography-text);
+}
+
+/* SMALL DEVICES */
+@media (max-width: 768px) {
+    .graphic__container {
+        background: url("/mobile/image-graphic-design.jpg");
+    }
+    .photo__container {
+        background: url("/mobile/image-photography.jpg");
+    }
+    .image__text--wrapper {
+        width: 90%;
+    }
+}
+
+/* MEDIUM DEVICES */
+@media (max-width: 992px) {
+    .container {
+        display: block;
+        height: 1300px;
+    }
+    .graphic__container {
+        display: block;
+        height: 1300px;
+    }
+    .graphic__container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 650px;
+        background: url("/desktop/image-graphic-design.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo__container {
+        display: flex;
+        flex: 100%;
+        align-items: flex-end;
+        justify-content: center;
+        height: 650px;
+        background: url("/desktop/image-photography.jpg");;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image__text--wrapper {
+        width: 70%;
+        padding-bottom: 6.5rem;
+    }
+}
+
+
+
