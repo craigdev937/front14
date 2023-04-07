@@ -15,7 +15,7 @@ export const Clients = () => {
                             <img
                                 className="client__image"
                                 alt="Emily"  
-                                src="/public/image-emily.jpg" 
+                                src="/image-emily.jpg" 
                             />
                             <div className="client__quote">
                                 We put our trust in Sunnyside 
@@ -38,7 +38,7 @@ export const Clients = () => {
                             <img 
                                 className="client__image" 
                                 alt="Thomas"
-                                src="/public/image-thomas.jpg"
+                                src="/image-thomas.jpg"
                             />
                             <div className="client__quote">
                                 Sunnyside's enthusiasm coupled 
@@ -61,7 +61,7 @@ export const Clients = () => {
                             <img
                                 alt="Jennie" 
                                 className="client__image"
-                                src="/public/image-jennie.jpg"
+                                src="/image-jennie.jpg"
                             />
                             <div className="client__quote">
                                 Incredible end result! our 

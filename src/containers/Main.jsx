@@ -5,6 +5,7 @@ import { StandOut } from "../components/standOut/StandOut";
 import { Signature } from "../components/signature/Signature";
 import { GraphicDesign } from "../components/gdesign/GraphicDesign";
 import { Clients } from "../components/clients/Clients";
+import { Food } from "../components/food/Food";
 
 export const Main = () => {
     return (
@@ -14,6 +15,7 @@ export const Main = () => {
             <StandOut />
             <GraphicDesign />
             <Clients />
+            <Food />
             <Signature />
         </React.Fragment>
     );

@@ -4,7 +4,7 @@ import "./GraphicDesign.css";
 export const GraphicDesign = () => {
     return (
         <React.Fragment>
-            <section className="container">
+            <section className="fruit__container">
                 <aside className="graphic__container">
                     <div className="image__text--wrapper text-cyan-1">
                         <div className="image__header">Graphic Design</div>
