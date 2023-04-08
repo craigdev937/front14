@@ -1,0 +1,45 @@
+.footer__container {
+    background: var(--footer);
+}
+
+.footer__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.footer__logo {
+    padding-bottom: 2rem;
+}
+
+.footer__links--wrap {
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.footer__link {
+    padding: 0rem 1.5rem;
+    text-decoration: none;
+    color: var(--graphic-design-text);
+}
+
+.footer__link:hover {
+    color: var(--white);
+}
+
+.social__icons--wrap {
+    display: flex;
+}
+
+.social__icon {
+    fill: var(--footer);
+    padding: 0rem 1rem;
+}
+
+.social__icon:hover {
+    fill: var(--white);
+}
+
+
