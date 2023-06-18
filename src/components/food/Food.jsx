@@ -11,10 +11,10 @@ import sugarMobile from "/mobile/image-gallery-sugar-cubes.jpg";
 
 export const Food = () => {
     const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
-    const milk = windowWidth >= 769 ? milkDesktop : milkMobile;
-    const orange = windowWidth >= 769 ? orangeDesktop : orangeMobile;
-    const cone = windowWidth >= 769 ? coneDesktop : coneMobile;
-    const sugar = windowWidth >= 769 ? sugarDesktop : sugarMobile;
+    const milk = windowWidth >= 765 ? milkDesktop : milkMobile;
+    const orange = windowWidth >= 765 ? orangeDesktop : orangeMobile;
+    const cone = windowWidth >= 765 ? coneDesktop : coneMobile;
+    const sugar = windowWidth >= 765 ? sugarDesktop : sugarMobile;
 
     React.useEffect(() => {
         const handleResize = () => {

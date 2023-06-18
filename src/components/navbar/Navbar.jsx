@@ -47,10 +47,10 @@ export const Navbar = () => {
                                 className="navbar__menu--item" 
                                 onClick={handleToggle}
                                 >
-                                    <div 
-                                        className="contact__button"
-                                        >CONTACT
-                                    </div>
+                                <div 
+                                    className="contact__button"
+                                    >CONTACT
+                                </div>
                             </a>
                         </div>
                     </div>

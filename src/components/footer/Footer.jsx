@@ -1,14 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import logo from "/public/logo.svg";
 
 export const Footer = () => {
     const [color, setColor] = React.useState("--footer");
-
-    const setStyle = (newColor) => {
-        setColor(newColor);
-        console.log(color);
-    };
 
     return (
         <React.Fragment>
@@ -32,21 +26,21 @@ export const Footer = () => {
                             <img
                                 className="social__icon"
                                 alt="Instagram"  
-                                src="/public/icon-instagram.svg"
+                                src="/icon-instagram.svg"
                             />
                         </a>
                         <a href="#">
                             <img
                                 className="social__icon"
                                 alt="Twitter"  
-                                src="/public/icon-twitter.svg"
+                                src="/icon-twitter.svg"
                             />
                         </a>
                         <a href="#">
                             <img
                                 className="social__icon"
                                 alt="Pinterest"  
-                                src="/public/icon-pinterest.svg"
+                                src="/icon-pinterest.svg"
                             />
                         </a>
                     </aside>
